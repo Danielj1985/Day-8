@@ -1,0 +1,75 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-item {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #250120;
+    color: white;
+}
+
+#c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex1 {
+    /* background-color: lightcoral; */
+    color: white;
+}
+
+.navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(169, 34, 223);
+    border-radius: 40px;
+    font-size: 15px;
+}
+
+.flex3 {
+    color: #ccc;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+       font-size: 15px;
+       background-color: rgb(120, 17, 152);
+       border: 1px solid rgb(76, 6, 83);
+       border-radius: 25px;
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-item2 {
+    width: 50%;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
